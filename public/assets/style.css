@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    height: 80px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 0 35px;
+}
+header .logo {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+header .menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+header .menu a.active {
+    border-bottom: 1px solid #fff;
+}
+/* Content */
+main {
+    padding: 20px 60px;
+    width: 100%;
+}
+.title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+form {
+    width: 100%;
+}
+.row {
+    display: flex;
+    gap: 15px;
+}
+form .group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+form .group .error {
+    color: #f00;
+}
+form input, form select {
+    width: 100%;
+    display: block;
+    padding: 7px 9px;
+    margin-top: 4px;
+    border: 1px solid #000;
+}
+form button, .button {
+    display: block;
+    margin: auto;
+    width: 140px;
+    background-color: chocolate;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 5px 8px;
+    margin-top: 15px;
+    font-size: 1.1rem;
+}
+.success {
+    background-color: green;
+    color: #fff;
+    padding: 7px 15px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+table {
+    width: 100%;
+}
